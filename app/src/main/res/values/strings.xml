@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dog Catalog</string>
+    <string name="breed_dog">Breed: Dog</string>
+    <string name="title_fav_dogs">Favorite Dogs</string>
+    <string name="action_add">Action</string>
+    <string name="view_favorites">View Favorites</string>
+    <string name="text_liked">Liked</string>
+</resources>

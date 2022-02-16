@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dogBreedsFragment">
+
+    <fragment
+        android:id="@+id/dogBreedsFragment"
+        android:name="app.christopher.shape_android_open_assignment.features.dog_breeds.DogBreedsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_dog_breeds" >
+        <action
+            android:id="@+id/action_dogBreedsFragment_to_favoriteDogsFragment"
+            app:destination="@id/favoriteDogsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_dogBreedsFragment_to_breedGalleryFragment"
+            app:destination="@id/breedGalleryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/breedGalleryFragment"
+        android:name="app.christopher.shape_android_open_assignment.features.breed_gallery.BreedGalleryFragment"
+        android:label="{breed} ☼ Breed"
+        tools:layout="@layout/fragment_breed_gallery" >
+        <argument
+            android:name="breed"
+            app:argType="string"
+            android:defaultValue="hound" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteDogsFragment"
+        android:name="app.christopher.shape_android_open_assignment.features.favorite.FavoriteDogsFragment"
+        android:label="@string/title_fav_dogs"
+        tools:layout="@layout/fragment_favorite_dogs">
+        <argument
+            android:name="breed"
+            app:argType="string"
+            android:defaultValue="hound" />
+
+    </fragment>
+</navigation>

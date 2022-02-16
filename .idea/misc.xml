@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.183" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/bg.xml" value="0.1805" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/breed_name_bg.xml" value="0.1805" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/fab_text_bg.xml" value="0.183" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.183" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/ic_thumb_down.xml" value="0.183" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/drawable/like_btn_bg.xml" value="0.1805" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/breed_image_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/breed_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/favorite_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/fragment_breed_gallery.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/fragment_dog_breed.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/fragment_dog_breeds.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/fragment_favorite_dogs.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/layout/item_dog_breed.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/menu/favorites_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidProjects/ShapeAndroidOpenAssignment/app/src/main/res/menu/menu_item.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
