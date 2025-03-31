@@ -1,4 +1,4 @@
-# Shape-Android-Open-Assignment
+# FunDog App
 Dogs Catalog
 
 ## Description
